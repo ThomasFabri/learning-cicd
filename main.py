@@ -11,4 +11,4 @@ async def root():
 @app.get("/funcaoteste")
 async def funcaoteste():
     print("função foi chamada")
-    return {"teste": "deu certo", "num_aleatorio": random.randint(0, 1000)}
+    return {"teste": "deu certo", "num_aleatorio": random.randint(0, 20000)}
